@@ -14,7 +14,6 @@ export const HeaderSection = () => {
       <div className="relative z-0">
         <HeroImage />
       </div>
-      <div className="bg-green">hello</div>
     </div>
   );
 };
