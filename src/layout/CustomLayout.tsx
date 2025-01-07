@@ -1,22 +1,22 @@
+import { Footer } from "@/components/Footer/Footer";
 import { HeaderSection } from "@/components/Header/HeaderSection";
+import { WorkHeader } from "@/components/Section/WorkSection/WorkHeader";
+
+import { AppConstants } from "@/constants/constant";
 
 export const CustomLayout = () => {
   return (
-    <div className="container-layout overflow-visible h-screen">
-      {/* Header Section */}
-      <div className="container bg-gray-100 top-0 left-0">
-        <HeaderSection />
+    <div style={{ background: `${AppConstants.backgroundColor}` }}>
+      <div className="container-layout overflow-visible h-screen w-full">
+        <div className=" bg-gray-100 top-0 left-0 relative">
+          <HeaderSection />
+        </div>
       </div>
-
-      {/* Content Section */}
-      <div className="container-content bg-gray-200 absolute top-20 left-0">
-        <p>HELLO</p>
-        <p>HELLO</p>
-        <p>HELLO</p>
-        <p>HELLO</p>
-        <p>HELLO</p>
-        <p>HELLO</p>
-        <p>HELLO</p>
+      <div className=" bg-gray-200  relative bottom  z-20">
+        <WorkHeader />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

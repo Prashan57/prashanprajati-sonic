@@ -1,4 +1,5 @@
 import { HeaderForWorkTab } from "../HeaderForWorkTab";
+import { WorkList } from "./WorkList";
 
 export const WorkHeader = () => {
   return (
@@ -6,8 +7,9 @@ export const WorkHeader = () => {
       <div>
         <HeaderForWorkTab />
       </div>
-      <div>WEB</div>
-      <div>work gen</div>
+      <div>
+        <WorkList />
+      </div>
     </div>
   );
 };

@@ -25,7 +25,7 @@ export const LocationTag = () => {
                 opacity: { ease: "linear" },
               },
             }}
-            className="ease-in "
+            className="ease-in w-40 ml-9"
           >
             {AppConstants.location}
           </motion.div>
