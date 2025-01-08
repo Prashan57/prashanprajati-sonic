@@ -1,8 +1,10 @@
-import { MyButton } from "./MyButton";
+"use client";
 
-import { variables } from "@/constants/constant";
+import { AppConstants, variables } from "@/constants/constant";
 import { NameTag } from "./NameTag";
 import { LocationTag } from "./LocationTag";
+import { MyHeaderButton } from "./HeaderButton";
+import Link from "next/link";
 
 export const NavBar = () => {
   return (
@@ -13,11 +15,14 @@ export const NavBar = () => {
 
       <div className="relative flex-1 flex justify-center">
         {variables.map((item, index) => (
-          <MyButton key={index} name={item.name} />
+          <MyHeaderButton key={index} name={item.name} id={item.id} />
         ))}
       </div>
 
-      <div className="relative flex w-40 justify-end">
+      <div
+        className="relative flex w-40 justify-end"
+        onClick={() => <Link href={AppConstants.personalLocation} />}
+      >
         <LocationTag />
       </div>
     </div>

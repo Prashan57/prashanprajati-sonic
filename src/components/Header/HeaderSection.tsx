@@ -4,7 +4,7 @@ import { ProfessionText } from "../ProfessionText";
 
 export const HeaderSection = () => {
   return (
-    <div className="relative w-full">
+    <div id="Home" className="relative w-full">
       <div className="relative z-10">
         <NavBar />
       </div>

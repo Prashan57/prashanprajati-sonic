@@ -26,6 +26,7 @@ export default {
         fadeIn: "fadeIn 0.7s ease-in-out",
         fadeOut: "fadeOut 0.7s ease-in-out",
       },
+      scrollBehavior: ["smooth"],
     },
   },
   plugins: [],

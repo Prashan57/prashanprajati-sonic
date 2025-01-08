@@ -3,7 +3,7 @@ import { MyButton } from "../MyButton";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div id="Contact" className="flex flex-col justify-center items-center">
       <div className="flex flex-row justify-center items-center gap-10">
         <div className="">Image</div>
         <div className="flex flex-col my-24">

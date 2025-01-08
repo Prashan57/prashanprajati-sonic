@@ -1,8 +1,8 @@
 export const variables = [
-  { name: "Home" },
-  { name: "About Me" },
-  { name: "My Work" },
-  { name: "Contact" },
+  { name: "Home", id: "Home" },
+  { name: "About Me", id: "AboutMe" },
+  { name: "My Work", id: "MyWork" },
+  { name: "Contact", id: "Contact" },
 ];
 
 export const AppConstants = {
@@ -12,6 +12,7 @@ export const AppConstants = {
   ProfessionText: "UX Designer",
   WorkTabVariablesStatus: true,
   quote: "Let's Get Designing",
+  personalLocation: "https://maps.app.goo.gl/2oMAxRHF7CTeW3vU7",
   personInfo:
     "UX designer focused on creating intuitive, user-centered digital experiences. They combine research-driven insights with attention to detail to deliver functional and visually engaging designs.",
   backgroundColor:
