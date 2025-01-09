@@ -47,3 +47,21 @@ export const contactInfo = [
   { name: "+977 9860111404" },
   { name: "Contact Me" },
 ];
+
+export const SocialIcons = [
+  {
+    alt: "github",
+    iconUrl: "/assets/icons/github.jpeg",
+    redirect: "https://github.com/Prashan57",
+  },
+  {
+    alt: "linkedIn",
+    iconUrl: "/assets/icons/linkedin.jpeg",
+    redirect: "https://www.linkedin.com/in/prashan-prajapati-b3a87a18b/",
+  },
+  {
+    alt: "instagram",
+    iconUrl: "/assets/icons/insta.jpeg",
+    redirect: "https://www.instagram.com",
+  },
+];

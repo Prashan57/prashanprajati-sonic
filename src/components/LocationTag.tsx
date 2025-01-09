@@ -5,15 +5,17 @@ import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import locationTag from "../assets/ic/Frame 29061.png";
 import { AppConstants } from "@/constants/constant";
+import { useRouter } from "next/navigation";
 
 export const LocationTag = () => {
+  const router = useRouter();
   const [hovered, setHovered] = useState<boolean>(false);
-
   return (
     <AnimatePresence>
       <div
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
+        onClick={() => router.push(AppConstants.personalLocation)}
       >
         {hovered ? (
           <motion.div
@@ -25,9 +27,10 @@ export const LocationTag = () => {
                 opacity: { ease: "linear" },
               },
             }}
-            className="ease-in w-40 ml-9"
+            className="ease-in w-40 ml-9 cursor-pointer"
           >
-            {AppConstants.location}
+            <button>{AppConstants.location}</button>
+            {" →"}
           </motion.div>
         ) : (
           <motion.div
