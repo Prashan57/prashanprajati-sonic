@@ -65,3 +65,16 @@ export const SocialIcons = [
     redirect: "https://www.instagram.com",
   },
 ];
+
+export const dpImage = {
+  DPURL: "/assets/dp/dp.jpeg",
+  alt: "DP",
+};
+
+
+//For email JS
+export const EmailVariables = {
+  YOUR_SERVICE_ID:"service_i6ky9j2",
+  YOUR_TEMPLATE_ID:"template_cfg13pk",
+  YOUR_PUBLIC_KEY:"3qCw6T4OMgRGWpHkg"
+}
