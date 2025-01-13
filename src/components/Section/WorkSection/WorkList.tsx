@@ -3,7 +3,7 @@ import { GridViewForWorkList } from "./GridViewForWorkList";
 
 export const WorkList = () => {
   return (
-    <div className="relative ">
+    <div className="relative mt-16">
       {WorkListVariables.map((item, index) => (
         <GridViewForWorkList
           key={index}
@@ -14,6 +14,7 @@ export const WorkList = () => {
           visitPageUrl={item.visitPageUrl}
         />
       ))}
+      <hr className="mx-8"/>
     </div>
   );
 };

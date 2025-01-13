@@ -13,6 +13,7 @@ import { MyButton } from "../MyButton";
 import Image from "next/image";
 import { useState } from "react";
 import Modal from "../modal/modal";
+import { MyContactButton } from "../ContactMeButton";
 
 export const Footer = () => {
   const router = useRouter();
@@ -49,17 +50,13 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="mb-24">
+      <div className="mb-24 ">
         {contactInfo.map((item, index) => (
-          <MyButton key={index} name={item.name} />
+          <MyButton key={index} name={item.name}/>
         ))}
+      <MyContactButton onClick={openModal} name="Contact Me"/>
       </div>
-      <button
-        onClick={openModal}
-        className="bg-blue-500 text-white p-4 rounded-full hover:bg-blue-700"
-      >
-        Open Modal
-      </button>
+     
       <Modal isOpen={isModalOpen} closeModal={closeModal} />
 
     </div>

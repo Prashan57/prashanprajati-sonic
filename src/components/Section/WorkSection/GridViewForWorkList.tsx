@@ -1,4 +1,4 @@
-import { MyButton } from "@/components/MyButton";
+import { MyVisitPageButton } from "@/components/VisitPageButton";
 import Image from "next/image";
 
 interface GridViewProps {
@@ -18,8 +18,8 @@ export const GridViewForWorkList: React.FC<GridViewProps> = ({
 }) => {
   return (
     <div>
-      <div className="grid grid-cols-3 gap-6 mx-16 my-5">
-        <div className="col-span-2 ">
+      <div className="grid lg:grid-cols-3 gap-6 mx-16 my-5">
+        <div className="lg:col-span-2 ">
           <Image
             src={imageUrl}
             alt={altName}
@@ -29,11 +29,11 @@ export const GridViewForWorkList: React.FC<GridViewProps> = ({
           />
           {/* hello */}
         </div>
-        <div className="container flex flex-col pl-8 pt-8">
-          <div className="text-2xl font-bold flex flex-s pl-3">{name}</div>
+        <div className="container flex flex-col pl-5 pt-8">
+          <div className="lg:text-2xl md:text-2xl font-bold flex flex-s lg:pl-3 pl-3 md:pl-3">{name}</div>
           <div className="mt-6 pl-3">{description}</div>
-          <div className="mt-8">
-            <MyButton name={visitPageUrl} />
+          <div className="mt-4">
+            <MyVisitPageButton name={visitPageUrl} visitURL={visitPageUrl}/>
           </div>
         </div>
       </div>

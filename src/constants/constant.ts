@@ -29,14 +29,14 @@ export const WorkListVariables = [
   {
     name: "E Commerce Website Builder",
     altName: "Saika Nepal Landing Page",
-    description: "Saika",
+    description: "A component used useRouter outside a Next.js application, or was rendered outside a Next.js application. This can happen when doing unit testing on components that use the useRouter hook as they are not configured with Next.js' contexts.This can also happen when you try to use the useRouter hook from next/router inside the app directory, as the App Router's useRouter from next/navigation has different behavior to the useRouter hook in pages.",
     imageUrl: "/assets/workImage/work2.jpg",
     visitPageUrl: "Visit to Page",
   },
   {
     name: "Saika Nepal Landing Page",
     altName: "Saika Nepal Landing Page",
-    description: "Landing Page",
+    description: "A component used useRouter outside a Next.js application, or was rendered outside a Next.js application. This can happen when doing unit testing on components that use the useRouter hook as they are not configured with Next.js' contexts.This can also happen when you try to use the useRouter hook from next/router inside the app directory, as the App Router's useRouter from next/navigation has different behavior to the useRouter hook in pages.",
     imageUrl: "/assets/workImage/work2.jpg",
     visitPageUrl: "Visit to Page",
   },
@@ -45,7 +45,6 @@ export const WorkListVariables = [
 export const contactInfo = [
   { name: "sncgtm@gmail.com" },
   { name: "+977 9860111404" },
-  { name: "Contact Me" },
 ];
 
 export const SocialIcons = [
