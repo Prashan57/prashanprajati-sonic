@@ -29,14 +29,16 @@ export const WorkListVariables = [
   {
     name: "E Commerce Website Builder",
     altName: "Saika Nepal Landing Page",
-    description: "A component used useRouter outside a Next.js application, or was rendered outside a Next.js application. This can happen when doing unit testing on components that use the useRouter hook as they are not configured with Next.js' contexts.This can also happen when you try to use the useRouter hook from next/router inside the app directory, as the App Router's useRouter from next/navigation has different behavior to the useRouter hook in pages.",
+    description:
+      "A component used useRouter outside a Next.js application, or was rendered outside a Next.js application. This can happen when doing unit testing on components that use the useRouter hook as they are not configured with Next.js' contexts.This can also happen when you try to use the useRouter hook from next/router inside the app directory, as the App Router's useRouter from next/navigation has different behavior to the useRouter hook in pages.",
     imageUrl: "/assets/workImage/work2.jpg",
     visitPageUrl: "Visit to Page",
   },
   {
     name: "Saika Nepal Landing Page",
     altName: "Saika Nepal Landing Page",
-    description: "A component used useRouter outside a Next.js application, or was rendered outside a Next.js application. This can happen when doing unit testing on components that use the useRouter hook as they are not configured with Next.js' contexts.This can also happen when you try to use the useRouter hook from next/router inside the app directory, as the App Router's useRouter from next/navigation has different behavior to the useRouter hook in pages.",
+    description:
+      "A component used useRouter outside a Next.js application, or was rendered outside a Next.js application. This can happen when doing unit testing on components that use the useRouter hook as they are not configured with Next.js' contexts.This can also happen when you try to use the useRouter hook from next/router inside the app directory, as the App Router's useRouter from next/navigation has different behavior to the useRouter hook in pages.",
     imageUrl: "/assets/workImage/work2.jpg",
     visitPageUrl: "Visit to Page",
   },
@@ -70,10 +72,9 @@ export const dpImage = {
   alt: "DP",
 };
 
-
 //For email JS
 export const EmailVariables = {
-  YOUR_SERVICE_ID:"service_i6ky9j2",
-  YOUR_TEMPLATE_ID:"template_cfg13pk",
-  YOUR_PUBLIC_KEY:"3qCw6T4OMgRGWpHkg"
-}
+  YOUR_SERVICE_ID: "service_i6ky9j2",
+  YOUR_TEMPLATE_ID: "template_cfg13pk",
+  YOUR_PUBLIC_KEY: "3qCw6T4OMgRGWpHkg",
+};

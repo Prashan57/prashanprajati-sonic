@@ -1,8 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { AppConstants } from "../constants/constant";
 
 import { EmailVariables } from "../constants/constant";
-import { style } from "framer-motion/client";
+import { motion } from "framer-motion";
 
 //Format to sendForm :   YOUR_SERVICE_ID:"",YOUR_TEMPLATE_ID:"",YOUR_PUBLIC_KEY:""
 
@@ -32,7 +33,7 @@ export const CustomEmailJS = () => {
   };
 
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full" style={{ paddingRight: "18px" }}>
       <form ref={form} onSubmit={sendEmail}>
         <div className="">
           {/* <label>Name</label> */}
@@ -95,7 +96,12 @@ export const CustomEmailJS = () => {
             }}
           />
         </div>
-        <button
+        <motion.button
+          whileHover={{
+            scale: 1.05,
+            transition: { duration: 0.2 },
+          }}
+          whileTap={{ scale: 0.9 }}
           type="submit"
           value="Send"
           style={{
@@ -109,11 +115,13 @@ export const CustomEmailJS = () => {
             outlineColor: "white",
             borderWidth: "1px",
             padding: "20px",
+            hoveColor: "green",
+            fontSize: "18px",
+            backgroundImage: `${AppConstants.backgroundColor}`,
           }}
-          className="hover:bg-green-100"
         >
           Submit
-        </button>
+        </motion.button>
       </form>
     </div>
   );
