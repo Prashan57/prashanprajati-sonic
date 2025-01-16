@@ -78,3 +78,17 @@ export const EmailVariables = {
   YOUR_TEMPLATE_ID: "template_cfg13pk",
   YOUR_PUBLIC_KEY: "3qCw6T4OMgRGWpHkg",
 };
+
+//For BentoGrid
+export const BentoVariables = {
+  BentoStatus: true,
+  image1: "/assets/BentoImages/img1.jpeg",
+  image2: "/assets/BentoImages/img2.jpeg",
+  image3: "/assets/BentoImages/img3.jpeg",
+  image4: "/assets/BentoImages/img4.jpeg",
+  image5: "/assets/BentoImages/img5.jpeg",
+  image6: "/assets/BentoImages/img6.jpeg",
+  image7: "/assets/BentoImages/img7.jpeg",
+  image8: "/assets/BentoImages/img8.jpeg",
+  image9: "/assets/BentoImages/img9.jpeg",
+};

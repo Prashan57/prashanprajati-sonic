@@ -100,13 +100,15 @@ export const CustomEmailJS = () => {
           whileHover={{
             scale: 1.05,
             transition: { duration: 0.2 },
+            backgroundColor: "white",
+            color: "black",
           }}
           whileTap={{ scale: 0.9 }}
           type="submit"
           value="Send"
           style={{
             width: "100%",
-            margin: "8px",
+            marginLeft: "9px",
             padding: "12px",
             borderRadius: "12px",
             fontWeight: "bold",
@@ -114,10 +116,10 @@ export const CustomEmailJS = () => {
             padding: "12px",
             outlineColor: "white",
             borderWidth: "1px",
-            padding: "20px",
+            // padding: "20px",
             hoveColor: "green",
             fontSize: "18px",
-            backgroundImage: `${AppConstants.backgroundColor}`,
+            // backgroundImage: `${AppConstants.backgroundColor}`,
           }}
         >
           Submit

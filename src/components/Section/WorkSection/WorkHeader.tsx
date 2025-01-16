@@ -1,3 +1,4 @@
+import { BentGridDesign } from "@/components/bentoUI/BentoDesign";
 import { HeaderForWorkTab } from "../HeaderForWorkTab";
 import { WorkList } from "./WorkList";
 
@@ -9,6 +10,9 @@ export const WorkHeader = () => {
       </div>
       <div>
         <WorkList />
+      </div>
+      <div>
+        <BentGridDesign />
       </div>
     </div>
   );
