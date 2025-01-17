@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { AppConstants } from "../constants/constant";
 
 import { EmailVariables } from "../constants/constant";
 import { motion } from "framer-motion";
@@ -119,7 +118,6 @@ export const CustomEmailJS = () => {
             // padding: "20px",
             hoveColor: "green",
             fontSize: "18px",
-            // backgroundImage: `${AppConstants.backgroundColor}`,
           }}
         >
           Submit
