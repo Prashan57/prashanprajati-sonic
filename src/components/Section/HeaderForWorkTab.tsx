@@ -5,6 +5,7 @@ import { AppConstants, WorkTabVariables } from "../../constants/constant";
 import { MyContactButton } from "../ContactMeButton";
 import { MyButton } from "../MyButton";
 import Modal from "../modal/modal";
+import { SkillSet } from "../SkillSet/SkillSet";
 
 export const HeaderForWorkTab = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,12 +20,14 @@ export const HeaderForWorkTab = () => {
         {AppConstants.personInfo}
       </div>
       <div className="flex flex-row justify-center m-20">
-      <Modal isOpen={isModalOpen} closeModal={closeModal} />
-        <MyContactButton name="Contact Me" onClick={openModal}/>
+        <Modal isOpen={isModalOpen} closeModal={closeModal} />
+        <MyContactButton name="Contact Me" onClick={openModal} />
       </div>
-      
-      <hr className="mx-8 "/>
 
+      <hr className="mx-8 " />
+      <div>
+        <SkillSet />
+      </div>
       <div className="text-3xl font-thin mx-8 my-16 lg:my-10 pl-3" id="MyWork">
         Recent Works
       </div>

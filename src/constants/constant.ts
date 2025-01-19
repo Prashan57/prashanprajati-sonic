@@ -17,6 +17,7 @@ export const AppConstants = {
     "UX designer focused on creating intuitive, user-centered digital experiences. They combine research-driven insights with attention to detail to deliver functional and visually engaging designs.",
   backgroundColor:
     "linear-gradient(180deg, #0B1013 0%, #121717 72.4%, #808080 100%)",
+  skillSetBackgroundColor: "#090B0C",
 };
 
 export const WorkTabVariables = [
@@ -92,3 +93,32 @@ export const BentoVariables = {
   image8: "/assets/BentoImages/img8.jpeg",
   image9: "/assets/BentoImages/img9.jpeg",
 };
+
+//Skill set
+export const SkillSetVariables = [
+  {
+    imageURL: "/assets/iconscv/major-skills/mongo.png",
+    alt: "MongoDB",
+    name: "MongoDB",
+  },
+  {
+    imageURL: "/assets/iconscv/major-skills/express.png",
+    alt: "ExpressJS",
+    name: "ExpressJS",
+  },
+  {
+    imageURL: "/assets/iconscv/major-skills/react.png",
+    alt: "ReactJS",
+    name: "ReactJS",
+  },
+  {
+    imageURL: "/assets/iconscv/major-skills/node.png",
+    alt: "NodeJS",
+    name: "NodeJS",
+  },
+  {
+    imageURL: "/assets/iconscv/major-skills/rnative.png",
+    alt: "React Native",
+    name: "React Native",
+  },
+];

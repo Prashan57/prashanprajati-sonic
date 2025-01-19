@@ -12,6 +12,7 @@ export const CustomLayout = () => {
           <HeaderSection />
         </div>
       </div>
+
       <div className=" bg-gray-200  relative bottom  z-20">
         <WorkHeader />
       </div>

@@ -14,7 +14,7 @@ export const WorkList = () => {
           visitPageUrl={item.visitPageUrl}
         />
       ))}
-      <hr className="mx-8"/>
+      {/* <hr className="mx-8"/> */}
     </div>
   );
 };
