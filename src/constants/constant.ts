@@ -18,6 +18,7 @@ export const AppConstants = {
   backgroundColor:
     "linear-gradient(180deg, #0B1013 0%, #121717 72.4%, #808080 100%)",
   skillSetBackgroundColor: "#090B0C",
+  PdfURL: "/assets/resume/CV.pdf",
 };
 
 export const WorkTabVariables = [
@@ -97,28 +98,134 @@ export const BentoVariables = {
 //Skill set
 export const SkillSetVariables = [
   {
-    imageURL: "/assets/iconscv/major-skills/mongo.png",
+    imageURL: "/assets/skill-icons/major-skills/MongoDB.png",
     alt: "MongoDB",
     name: "MongoDB",
   },
   {
-    imageURL: "/assets/iconscv/major-skills/express.png",
+    imageURL: "/assets/skill-icons/major-skills/Express-2.png",
     alt: "ExpressJS",
     name: "ExpressJS",
   },
   {
-    imageURL: "/assets/iconscv/major-skills/react.png",
+    imageURL: "/assets/skill-icons/major-skills/React.webp",
     alt: "ReactJS",
     name: "ReactJS",
   },
   {
-    imageURL: "/assets/iconscv/major-skills/node.png",
+    imageURL: "/assets/skill-icons/major-skills/nodejs.png",
     alt: "NodeJS",
     name: "NodeJS",
   },
   {
-    imageURL: "/assets/iconscv/major-skills/rnative.png",
+    imageURL: "/assets/skill-icons/major-skills/react-native.png",
     alt: "React Native",
     name: "React Native",
+  },
+];
+
+export const ExtraSkillSetVariables = [
+  {
+    imageURL: "/assets/skill-icons/extra-skills/typescript.png",
+    alt: "TypeScript",
+    name: "TypeScript",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/nextjs.webp",
+    alt: "NextJS",
+    name: "NextJS",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/oracle.webp",
+    alt: "Oracle",
+    name: "Oracle",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/mysql.png",
+    alt: "MySQL",
+    name: "MySQL",
+  },
+
+  {
+    imageURL: "/assets/skill-icons/extra-skills/javascript.svg",
+    alt: "JS",
+    name: "Javascript",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/tt.webp",
+    alt: "TailwindCSS",
+    name: "TailwindCSS",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/html.svg",
+    alt: "HTML",
+    name: "HTML",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/figma2.png",
+    alt: "Figma",
+    name: "Figma",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/git.svg",
+    alt: "Git",
+    name: "Git",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/framer.png",
+    alt: "FramerMotion",
+    name: "Framer Motion",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/fire.webp",
+    alt: "Firebase",
+    name: "Firebase",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/lara.png",
+    alt: "Laravel",
+    name: "Laravel",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/ccxt.png",
+    alt: "CCXT",
+    name: "CCXT",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/java.png",
+    alt: "Java",
+    name: "Java",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/c.png",
+    alt: "C",
+    name: "C",
+  },
+
+  {
+    imageURL: "/assets/skill-icons/extra-skills/php.svg",
+    alt: "PHP",
+    name: "PHP",
+  },
+
+  {
+    imageURL: "/assets/skill-icons/extra-skills/python.svg",
+    alt: "Python",
+    name: "Python",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/w3.png",
+    alt: "Web3",
+    name: "Web3",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/django.png",
+    alt: "Django",
+    name: "Django",
+  },
+  {
+    imageURL: "/assets/skill-icons/extra-skills/flutter.png",
+    alt: "Flutter",
+    name: "Flutter",
   },
 ];

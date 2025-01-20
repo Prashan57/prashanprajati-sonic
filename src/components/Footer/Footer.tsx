@@ -14,6 +14,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Modal from "../modal/modal";
 import { MyContactButton } from "../ContactMeButton";
+import { PdfViewer } from "../PDFView/PdfViewer";
 
 export const Footer = () => {
   const router = useRouter();
@@ -50,15 +51,15 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="mb-24 ">
+      <div className="flex mb-24 ">
         {contactInfo.map((item, index) => (
-          <MyButton key={index} name={item.name}/>
+          <MyButton key={index} name={item.name} />
         ))}
-      <MyContactButton onClick={openModal} name="Contact Me"/>
+        <PdfViewer />
+        <MyContactButton onClick={openModal} name="Contact Me" />
       </div>
-     
-      <Modal isOpen={isModalOpen} closeModal={closeModal} />
 
+      <Modal isOpen={isModalOpen} closeModal={closeModal} />
     </div>
   );
 };
