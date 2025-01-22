@@ -137,8 +137,8 @@ export const ExtraSkillSetVariables = [
   },
   {
     imageURL: "/assets/skill-icons/extra-skills/oracle.webp",
-    alt: "Oracle",
-    name: "Oracle",
+    alt: "Oracle DB",
+    name: "Oracle DB",
   },
   {
     imageURL: "/assets/skill-icons/extra-skills/mysql.png",

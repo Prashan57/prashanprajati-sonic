@@ -25,13 +25,13 @@ export const Footer = () => {
   return (
     <div id="Contact" className="flex flex-col justify-center items-center">
       <div className="flex flex-row justify-center items-center gap-10">
-        <div className="">
+        <div className="mt-3">
           <Image
             src={dpImage.DPURL}
             alt={dpImage.alt}
             width={90}
             height={90}
-            style={{ borderRadius: "1000px", paddingTop: "10px" }}
+            className="rounded-full"
           />
         </div>
         <div className="flex flex-col my-24">

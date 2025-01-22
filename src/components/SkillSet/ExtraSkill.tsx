@@ -8,7 +8,7 @@ export const ExtraSkill = () => {
 
   const containerVariants = {
     expanded: { height: "auto", opacity: 1, transition: { duration: 0.5 } },
-    collapsed: { height: 230, opacity: 1, transition: { duration: 0.5 } }, // Adjust height for the first five elements
+    collapsed: { height: 240, opacity: 1, transition: { duration: 0.5 } }, // Adjust height for the first five elements
   };
 
   return (
@@ -50,7 +50,10 @@ export const ExtraSkill = () => {
           </AnimatePresence>
         </motion.div>
         {/* Button to toggle visibility */}
-        <button className="mt-4" onClick={() => setShowAll(!showAll)}>
+        <button
+          className="mt-4 font-medium"
+          onClick={() => setShowAll(!showAll)}
+        >
           {showAll ? "Show Less ⬆" : "Show More ⬇"}
         </button>
       </div>
