@@ -229,3 +229,38 @@ export const ExtraSkillSetVariables = [
     name: "Flutter",
   },
 ];
+
+//Certifications
+export const CertificationsVariables = [
+  {
+    imageURL: "/assets/certification/Tribhuvan.png",
+    alt: "Tribhuvan",
+    name: "Tribhuvan University",
+    altName:
+      "Bachelors in Science of Computer Science and Information Technology",
+  },
+  {
+    imageURL: "/assets/certification/redHat.svg",
+    alt: "redhat",
+    name: "Red Hat Linux",
+    altName: "Shell Scripting",
+  },
+];
+
+//Work Experience
+export const WorkExperienceVariables = [
+  {
+    imageURL: "/assets/WorkExperience/qwik.jpeg",
+    alt: "qwik",
+    name: "Qwik IT Services",
+    altName: "Assigned Role: ",
+    position: " Frontend Engineer Intern",
+  },
+  {
+    imageURL: "/assets/WorkExperience/cas.jpg",
+    alt: "cas",
+    name: " CAS Trading Solution",
+    altName: "Assigned Role: ",
+    position: "Software Engineer",
+  },
+];

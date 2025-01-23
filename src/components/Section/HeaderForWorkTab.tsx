@@ -6,6 +6,8 @@ import { MyContactButton } from "../ContactMeButton";
 import { MyButton } from "../MyButton";
 import Modal from "../modal/modal";
 import { SkillSet } from "../SkillSet/SkillSet";
+import { CertificationSection } from "./Certification/CertificationSection";
+import { WorkExperienceSection } from "./Work Experience/WorkExperienceSection";
 
 export const HeaderForWorkTab = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -27,6 +29,12 @@ export const HeaderForWorkTab = () => {
       <hr className="mx-8 " />
       <div>
         <SkillSet />
+      </div>
+      <div>
+        <CertificationSection />
+      </div>
+      <div>
+        <WorkExperienceSection />
       </div>
       <div className="text-3xl font-thin mx-8 my-16 lg:my-10 pl-3" id="MyWork">
         Recent Works
