@@ -30,12 +30,16 @@ export const HeaderForWorkTab = () => {
       <div>
         <SkillSet />
       </div>
-      <div>
-        <CertificationSection />
-      </div>
-      <div>
-        <WorkExperienceSection />
-      </div>
+      {AppConstants.certificationStatus && (
+        <div>
+          <CertificationSection />
+        </div>
+      )}
+      {AppConstants.workExperienceStatus && (
+        <div>
+          <WorkExperienceSection />
+        </div>
+      )}
       <div className="text-3xl font-thin mx-8 my-16 lg:my-10 pl-3" id="MyWork">
         Recent Works
       </div>

@@ -5,7 +5,7 @@ export const BentGridDesign = () => {
   return (
     <div className="relative mt-28 mx-16">
       <div className="relative grid grid-rows-4 grid-cols-5 gap-4  overflow-hidden">
-        <div className=" col-span-5  p-2  h-52 relative rounded-lg">
+        <div className=" col-span-5  p-2  h-32 lg:h-52 relative rounded-lg">
           <Image
             src={BentoVariables.image1}
             alt="img1"

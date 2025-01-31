@@ -7,10 +7,9 @@ export const variables = [
 
 export const AppConstants = {
   personName: "Sonic Gautam",
-  location: "Kathmandu, Nepal",
   heroImageUrl: "/assets/images/Rectangle.jpg",
   ProfessionText: "UX Designer",
-  WorkTabVariablesStatus: true,
+  WorkTabVariablesStatus: false,
   quote: "Let's Get Designing",
   personalLocation: "https://maps.app.goo.gl/2oMAxRHF7CTeW3vU7",
   personInfo:
@@ -19,6 +18,8 @@ export const AppConstants = {
     "linear-gradient(180deg, #0B1013 0%, #121717 72.4%, #808080 100%)",
   skillSetBackgroundColor: "#090B0C",
   PdfURL: "/assets/resume/CV.pdf",
+  workExperienceStatus: false,
+  certificationStatus: false,
 };
 
 export const WorkTabVariables = [
@@ -42,7 +43,7 @@ export const WorkListVariables = [
     description:
       "A component used useRouter outside a Next.js application, or was rendered outside a Next.js application. This can happen when doing unit testing on components that use the useRouter hook as they are not configured with Next.js' contexts.This can also happen when you try to use the useRouter hook from next/router inside the app directory, as the App Router's useRouter from next/navigation has different behavior to the useRouter hook in pages.",
     imageUrl: "/assets/workImage/work2.jpg",
-    visitPageUrl: "Visit to Page",
+    visitPageUrl: "https://saikanepal.com",
   },
 ];
 
@@ -66,6 +67,11 @@ export const SocialIcons = [
     alt: "instagram",
     iconUrl: "/assets/icons/insta.jpeg",
     redirect: "https://www.instagram.com",
+  },
+  {
+    alt: "Behance",
+    iconUrl: "/assets/icons/bee.jpeg",
+    redirect: "https://www.behance.com",
   },
 ];
 
